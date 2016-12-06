@@ -1,0 +1,127 @@
+##     	code	name	cast	value_type
+#define	BLE	branch_length	float	branch_attribute
+#define	BSS	bootstrap	float	branch_attribute
+#define	CNA	common_name	str	node_attribute
+#define	HAB	habit	str	node_attribute
+#define	HGT	horizontal_transfer	node	node_attribute
+#define	IMA	img_author	str	node_attribute
+#define	IML	img_license	str	node_attribute
+#define	IMS	img_source	url	node_attribute
+#define	LIN	lineage_taxids	list	node_attribute
+#define	MSS	mass_in_kg	float	node_attribute
+#define	NAM	name	str	node_attribute
+#define	PAR	parent	node	node_attribute
+#define	PPB	posterior	float	branch_attribute
+#define	RNK	rank	str	node_attribute
+#define	TAX	taxid	int	node_attribute
+0	CNA	Mammals
+0	IMS	http://eol.org/pages/1642/overview
+0	NAM	Mammalia
+0	PAR	-1
+0	RNK	class
+1	BSS	92
+1	CNA	Even-toedungulates
+1	HGT	10
+1	IMS	http://eol.org/pages/7678/overview
+1	NAM	Artiodactyla
+1	PAR	0
+1	PPB	0.81
+1	RNK	order
+2	BSS	99
+2	CNA	Bovids
+2	IMS	http://eol.org/pages/7687/overview
+2	NAM	Bovidae
+2	PAR	1
+2	PPB	0.95
+2	RNK	family
+3	CNA	Cattle
+3	HAB	herbivore
+3	IMA	Cynthia Sims Parr
+3	IML	CC-BY-SA
+3	IMS	http://media.eol.org/content/2016/06/04/10/27046_orig.jpg
+3	MSS	618.64
+3	NAM	Bos_taurus
+3	PAR	2
+3	RNK	species
+3	TAX	9913
+4	CNA	Asiatic mouflon
+4	HAB	herbivore
+4	IMA	Jrg Hempel
+4	IML	CC-BY-SA
+4	IMS	http://media.eol.org/content/2015/05/20/03/80720_orig.jpg
+4	MSS	39.1
+4	NAM	Ovis_orientalis
+4	PAR	2
+4	RNK	species
+4	TAX	469796
+5	BSS	98
+5	CNA	Cervids
+5	IMS	http://eol.org/pages/7685/overview
+5	NAM	Cervidae
+5	PAR	1
+5	PPB	0.96
+5	RNK	family
+6	CNA	Red deer
+6	HAB	herbivore
+6	IMA	Sciadopitys
+6	IML	CC-BY-SA
+6	IMS	http://media.eol.org/content/2014/09/16/00/20239_orig.jpg
+6	MSS	240.87
+6	NAM	Cervus_elaphus
+6	PAR	5
+6	RNK	species
+6	TAX	9860
+7	CNA	Reindeer
+7	HAB	herbivore
+7	IMA	Alexandre Buisse (Nattfodd)
+7	IML	CC-BY-SA
+7	IMS	http://media.eol.org/content/2012/06/13/00/48543_orig.jpg
+7	MSS	109.09
+7	NAM	Rangifer_tarandus
+7	PAR	5
+7	RNK	species
+7	TAX	9870
+8	BSS	96
+8	CNA	Carnivores
+8	IMS	http://eol.org/pages/7662/overview
+8	NAM	Carnivora
+8	PAR	0
+8	PPB	0.89
+8	RNK	order
+9	BSS	98
+9	CNA	Dog-like
+9	IMS	http://eol.org/pages/2849494/overview
+9	NAM	Caniformia
+9	PAR	8
+9	PPB	0.93
+9	RNK	suborder
+10	CNA	Hooded seal
+10	HAB	omnivore
+10	IMA	"Ecomare Salko de Wolf"
+10	IML	CC-BY-SA
+10	IMS	http://media.eol.org/content/2013/06/18/07/63362_orig.jpg
+10	MSS	278.9
+10	NAM	Cystophora_cristata
+10	PAR	9
+10	RNK	species
+10	TAX	39293
+11	CNA	Striped skunk
+11	HAB	omnivore
+11	IMA	Kevin Bowman
+11	IML	CC-BY
+11	IMS	http://media.eol.org/content/2012/06/15/06/75234_orig.jpg
+11	MSS	2.4
+11	NAM	Mephitis_mephitis
+11	PAR	9
+11	RNK	species
+11	TAX	30548
+12	CNA	Meerkat
+12	HAB	carnivore
+12	IMA	Sara&Joachim
+12	IML	CC-BY-SA
+12	IMS	http://media.eol.org/content/2016/08/16/05/67138_orig.jpg
+12	MSS	0.73
+12	NAM	Suricata_suricatta
+12	PAR	8
+12	RNK	species
+12	TAX	37032
