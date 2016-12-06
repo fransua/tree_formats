@@ -14,11 +14,13 @@
 #define	PPB	posterior	float	branch_attribute
 #define	RNK	rank	str	node_attribute
 #define	TAX	taxid	int	node_attribute
+0	BLE	0.0
 0	CNA	Mammals
 0	IMS	http://eol.org/pages/1642/overview
 0	NAM	Mammalia
 0	PAR	-1
 0	RNK	class
+1	BLE	1.0
 1	BSS	92
 1	CNA	Even-toedungulates
 1	HGT	10
@@ -27,6 +29,7 @@
 1	PAR	0
 1	PPB	0.81
 1	RNK	order
+2	BLE	1.0
 2	BSS	99
 2	CNA	Bovids
 2	IMS	http://eol.org/pages/7687/overview
@@ -34,6 +37,7 @@
 2	PAR	1
 2	PPB	0.95
 2	RNK	family
+3	BLE	1.0
 3	CNA	Cattle
 3	HAB	herbivore
 3	IMA	Cynthia Sims Parr
@@ -44,6 +48,7 @@
 3	PAR	2
 3	RNK	species
 3	TAX	9913
+4	BLE	1.0
 4	CNA	Asiatic mouflon
 4	HAB	herbivore
 4	IMA	Jrg Hempel
@@ -54,6 +59,7 @@
 4	PAR	2
 4	RNK	species
 4	TAX	469796
+5	BLE	1.0
 5	BSS	98
 5	CNA	Cervids
 5	IMS	http://eol.org/pages/7685/overview
@@ -61,6 +67,7 @@
 5	PAR	1
 5	PPB	0.96
 5	RNK	family
+6	BLE	1.0
 6	CNA	Red deer
 6	HAB	herbivore
 6	IMA	Sciadopitys
@@ -71,6 +78,7 @@
 6	PAR	5
 6	RNK	species
 6	TAX	9860
+7	BLE	1.0
 7	CNA	Reindeer
 7	HAB	herbivore
 7	IMA	Alexandre Buisse (Nattfodd)
@@ -81,6 +89,7 @@
 7	PAR	5
 7	RNK	species
 7	TAX	9870
+8	BLE	1.0
 8	BSS	96
 8	CNA	Carnivores
 8	IMS	http://eol.org/pages/7662/overview
@@ -88,6 +97,7 @@
 8	PAR	0
 8	PPB	0.89
 8	RNK	order
+9	BLE	1.0
 9	BSS	98
 9	CNA	Dog-like
 9	IMS	http://eol.org/pages/2849494/overview
@@ -95,6 +105,7 @@
 9	PAR	8
 9	PPB	0.93
 9	RNK	suborder
+10	BLE	1.0
 10	CNA	Hooded seal
 10	HAB	omnivore
 10	IMA	"Ecomare Salko de Wolf"
@@ -105,6 +116,7 @@
 10	PAR	9
 10	RNK	species
 10	TAX	39293
+11	BLE	1.0
 11	CNA	Striped skunk
 11	HAB	omnivore
 11	IMA	Kevin Bowman
@@ -115,6 +127,7 @@
 11	PAR	9
 11	RNK	species
 11	TAX	30548
+12	BLE	2.0
 12	CNA	Meerkat
 12	HAB	carnivore
 12	IMA	Sara&Joachim
